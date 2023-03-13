@@ -1,24 +1,31 @@
+header {
+  margin-bottom: auto;
+}
+
 body {
   background-color: black;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
-header {
-  border: solid red 1px;
-  margin-bottom: 50%;
-}
-
-footer .nav-bar {
-  position: fixed;
+footer {
+  display: flex;
+  margin-top: auto;
+  padding: 1rem;
   background-color: rgb(114, 112, 112);
-  padding: 10px;
+  justify-content: center;
   width: 100%;
-  bottom: 0;
-  left: 0;
 }
-footer a {
+footer .nav-bar a {
+  color: white;
   text-decoration: none;
-  text-align: center;
-  padding: 10px 17px;
+  padding: 8px;
+}
+footer .nav-bar a:hover {
+  color: black;
 }
 
 .intro-container {
