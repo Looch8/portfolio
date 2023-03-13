@@ -1,22 +1,11 @@
 // Nav bar
 header {
   margin-bottom: auto;
-}
 
-body {
-  background-color: black;
   display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
-}
-
-footer {
-  display: flex;
-  margin-top: auto;
+  margin-bottom: auto;
   padding: 1rem;
-  background-color: rgb(114, 112, 112);
+  background-color: rgb(73, 73, 73);
   justify-content: center;
   width: 100%;
 
@@ -31,6 +20,19 @@ footer {
       color: black;
     }
   }
+}
+
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  margin-top: auto;
 }
 
 .intro-container {
