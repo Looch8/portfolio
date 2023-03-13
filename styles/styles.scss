@@ -1,7 +1,5 @@
 // Nav bar
 header {
-  margin-bottom: auto;
-
   display: flex;
   margin-bottom: auto;
   padding: 1rem;
@@ -33,6 +31,12 @@ body {
 
 footer {
   margin-top: auto;
+
+  display: flex;
+  padding: 1.5rem;
+  background-color: rgb(73, 73, 73);
+  justify-content: center;
+  width: 100%;
 }
 
 .intro-container {
