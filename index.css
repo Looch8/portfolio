@@ -66,13 +66,18 @@ body {
   padding: 0;
 }
 
-.intro-container {
+main .intro-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
-.intro-container .intro {
+main .intro-container img {
+  width: 250px;
+  padding: 15px;
+  border-radius: 20%;
+}
+main .intro-container .intro {
   max-width: 50%;
   color: white;
   font-family: "Source Sans Pro", sans-serif;
@@ -80,14 +85,7 @@ body {
   margin-left: 20px;
   padding-left: 10px;
 }
-
-img {
-  width: 250px;
-  padding: 15px;
-  border-radius: 20%;
-}
-
-span {
+main .intro-container .intro span {
   color: orange;
 }
 

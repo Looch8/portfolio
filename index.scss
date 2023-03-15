@@ -13,31 +13,32 @@ body {
 }
 
 // container for the intro text and image of the main page
-.intro-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+main {
+  .intro-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 
-  .intro {
-    max-width: 50%;
-    color: $font-primary;
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 2rem;
-    margin-left: 20px;
-    padding-left: 10px;
+    img {
+      width: 250px;
+      padding: 15px;
+      border-radius: 20%;
+    }
+
+    .intro {
+      max-width: 50%;
+      color: $font-primary;
+      font-family: "Source Sans Pro", sans-serif;
+      font-size: 2rem;
+      margin-left: 20px;
+      padding-left: 10px;
+
+      span {
+        color: $font-secondary;
+      }
+    }
   }
-}
-
-img {
-  width: 250px;
-
-  padding: 15px;
-  border-radius: 20%;
-}
-
-span {
-  color: $font-secondary;
 }
 
 @media screen and (max-width: 600px) {
@@ -47,6 +48,4 @@ span {
 }
 
 // TO-DO
-// - Make Home, About, Projects, Contact button's be highlighted dark green when clicked on.
-// - Make the tabs open in a new page when clicking on github, linkedin links etc.
-// Add github, linked in links etc to footer
+// - Make Home, About, Projects, Contact button's be highlighted orange when clicked on.
