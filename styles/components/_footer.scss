@@ -1,0 +1,11 @@
+@import "../defaults/colors";
+
+footer {
+  margin-top: auto;
+
+  display: flex;
+  padding: 1.5rem;
+  background-color: $background-secondary;
+  justify-content: center;
+  width: 100%;
+}

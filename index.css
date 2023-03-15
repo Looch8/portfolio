@@ -15,15 +15,6 @@ header .nav-bar a:hover {
   color: black;
 }
 
-body {
-  background-color: black;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
-}
-
 footer {
   margin-top: auto;
   display: flex;
@@ -31,6 +22,15 @@ footer {
   background-color: rgb(73, 73, 73);
   justify-content: center;
   width: 100%;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
 .intro-container {
@@ -41,4 +41,4 @@ footer {
 .intro-container .intro {
   max-width: 50%;
   color: white;
-}/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=index.css.map */
