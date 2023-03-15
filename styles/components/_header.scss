@@ -5,7 +5,6 @@ header {
   margin-bottom: auto;
   padding: 1rem;
   background-color: $background-secondary;
-  justify-content: center;
   width: 100%;
 
   .nav-bar {
@@ -19,11 +18,16 @@ header {
 
     #home-link {
       color: $font-secondary;
-      border-color: black;
     }
 
     a:hover {
-      color: $background-primary;
+      color: $font-secondary;
     }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    justify-content: center;
   }
 }
