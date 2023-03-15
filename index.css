@@ -2,7 +2,7 @@ header {
   display: flex;
   margin-bottom: auto;
   padding: 1rem;
-  background-color: rgb(73, 73, 73);
+  background-color: rgb(64, 62, 62);
   justify-content: center;
   width: 100%;
 }
@@ -10,6 +10,12 @@ header .nav-bar a {
   color: white;
   text-decoration: none;
   padding: 8px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.3rem;
+}
+header .nav-bar #home-link {
+  color: orange;
+  border-color: black;
 }
 header .nav-bar a:hover {
   color: black;
@@ -19,7 +25,7 @@ footer {
   margin-top: auto;
   display: flex;
   padding: 1.5rem;
-  background-color: rgb(73, 73, 73);
+  background-color: rgb(64, 62, 62);
   justify-content: center;
   width: 100%;
 }
@@ -37,8 +43,21 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .intro-container .intro {
   max-width: 50%;
   color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 2rem;
+}
+
+img {
+  width: 300px;
+  padding: 15px;
+  border-radius: 20%;
+}
+
+span {
+  color: orange;
 }/*# sourceMappingURL=index.css.map */

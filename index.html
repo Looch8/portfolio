@@ -6,25 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Luke Wheldale Portfolio</title>
     <link rel="stylesheet" href="index.css" />
+
+    <!-- Source Sans Pro font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <nav class="nav-bar">
-        <a href="home-link">Home</a>
-        <a href="about-link">About</a>
-        <a href="projects-link">Projects</a>
-        <a href="contact-link">Contact</a>
+        <a href id="home-link">Home</a>
+        <a href id="about-link">About</a>
+        <a href id="projects-link">Projects</a>
+        <a href id="contact-link">Contact</a>
       </nav>
     </header>
 
     <main>
       <!-- Section for intro, centered in middle of page. -->
       <section class="intro-container">
+        <img src="./images/me.jpg" alt="Photo of Luke Wheldale" />
         <div class="intro">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque debitis
-          molestias velit neque ipsam reprehenderit tempore! Magni rerum placeat
-          odit totam ullam, corporis veniam fuga pariatur in? Error, sunt
-          delectus?
+          Hello, I'm <span>Luke</span>. <br />
+          I'm a full stack web developer.
         </div>
       </section>
     </main>
@@ -32,3 +39,8 @@
     <footer></footer>
   </body>
 </html>
+
+<!-- // TO-DO
+// - Make Home, About, Projects, Contact button's be highlighted dark green when clicked on.
+// - Make the tabs open in a new page when clicking on github, linkedin links etc.
+// Add github, linked in links etc to footer -->

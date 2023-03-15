@@ -12,13 +12,32 @@ body {
   padding: 0;
 }
 
+// container for the intro text and image of the main page
 .intro-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 
   .intro {
     max-width: 50%;
     color: $font-primary;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 2rem;
   }
 }
+
+img {
+  width: 300px;
+  padding: 15px;
+  border-radius: 20%;
+}
+
+span {
+  color: $font-secondary;
+}
+
+// TO-DO
+// - Make Home, About, Projects, Contact button's be highlighted dark green when clicked on.
+// - Make the tabs open in a new page when clicking on github, linkedin links etc.
+// Add github, linked in links etc to footer

@@ -13,6 +13,13 @@ header {
       color: $font-primary;
       text-decoration: none;
       padding: 8px;
+      font-family: "Source Sans Pro", sans-serif;
+      font-size: 1.3rem;
+    }
+
+    #home-link {
+      color: $font-secondary;
+      border-color: black;
     }
 
     a:hover {
