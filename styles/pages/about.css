@@ -113,6 +113,7 @@ main .about .about-content .skills-row {
   flex-direction: column;
   justify-content: center;
   padding: 10px;
+  text-align: center;
 }
 main .about .about-content .fa-brands {
   padding: 5px;
