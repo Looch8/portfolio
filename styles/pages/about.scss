@@ -27,10 +27,6 @@ body {
 }
 
 main {
-	// color: $font-primary;
-	// font-family: "Source Sans Pro", sans-serif;
-	// width: 100%;
-
 	.about {
 		display: flex;
 		justify-content: center;
@@ -43,12 +39,14 @@ main {
 			margin-bottom: 150px;
 
 			font-size: 3.5rem;
+
 			color: $font-primary;
 		}
 
 		.about-content {
 			display: flex;
 			justify-content: space-around;
+			padding: 20px;
 
 			font-size: 1.3rem;
 
@@ -58,10 +56,32 @@ main {
 				color: $font-primary;
 			}
 
+			//logo rows
+			.skills-row {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				padding: 10px;
+			}
+
+			.fa-brands {
+				padding: 5px;
+			}
+
+			.logo-name {
+				padding: 5px;
+			}
+
 			//skills logos and associated text
 			.skills {
+				margin-left: 50px;
+				display: flex;
+				justify-content: center;
+				padding: 10px;
+				border-radius: 45px;
+
 				background-color: $background-secondary;
-				max-width: 50%;
+
 				i {
 					font-size: 3.5rem;
 					color: $font-secondary;
@@ -103,7 +123,8 @@ main {
 				//logo-text
 				.logo-name {
 					font-size: 1rem;
-					color: white;
+					color: $font-primary;
+					font-family: "Source Sans Pro", sans-serif;
 				}
 			}
 		}

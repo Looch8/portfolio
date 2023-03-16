@@ -100,6 +100,7 @@ main .about .about-heading {
 main .about .about-content {
   display: flex;
   justify-content: space-around;
+  padding: 20px;
   font-size: 1.3rem;
 }
 main .about .about-content .about-profile {
@@ -107,9 +108,25 @@ main .about .about-content .about-profile {
   align-items: center;
   color: white;
 }
+main .about .about-content .skills-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+main .about .about-content .fa-brands {
+  padding: 5px;
+}
+main .about .about-content .logo-name {
+  padding: 5px;
+}
 main .about .about-content .skills {
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 45px;
   background-color: rgb(64, 62, 62);
-  max-width: 50%;
 }
 main .about .about-content .skills i {
   font-size: 3.5rem;
@@ -142,6 +159,7 @@ main .about .about-content .skills .fa-node {
 main .about .about-content .skills .logo-name {
   font-size: 1rem;
   color: white;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 @media screen and (max-width: 600px) {
