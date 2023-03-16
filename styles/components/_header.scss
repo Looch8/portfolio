@@ -1,33 +1,33 @@
 @import "../defaults/colors";
 
 header {
-  display: flex;
-  margin-bottom: auto;
-  padding: 1rem;
-  background-color: $background-secondary;
-  width: 100%;
+	display: flex;
+	margin-bottom: auto;
+	padding: 1rem;
+	background-color: $background-secondary;
+	width: 100%;
 
-  .nav-bar {
-    a {
-      color: $font-primary;
-      text-decoration: none;
-      padding: 8px;
-      font-family: "Source Sans Pro", sans-serif;
-      font-size: 1.3rem;
-    }
+	.nav-bar {
+		a {
+			color: $font-primary;
+			text-decoration: none;
+			padding: 8px;
+			font-family: "Source Sans Pro", sans-serif;
+			font-size: 1.3rem;
+		}
 
-    .home-link {
-      color: $font-secondary;
-    }
+		.home-link {
+			color: $font-secondary;
+		}
 
-    a:hover {
-      color: $font-secondary;
-    }
-  }
+		a:hover {
+			color: $font-secondary;
+		}
+	}
 }
 
 @media screen and (max-width: 600px) {
-  header {
-    justify-content: center;
-  }
+	header {
+		justify-content: center;
+	}
 }

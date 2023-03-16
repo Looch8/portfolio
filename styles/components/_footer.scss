@@ -1,37 +1,37 @@
 @import "../defaults/colors";
 
 footer {
-  margin-top: auto;
+	margin-top: auto;
 
-  display: flex;
-  padding: 1.5rem;
-  background-color: $background-secondary;
-  justify-content: center;
-  width: 100%;
+	display: flex;
+	padding: 1.5rem;
+	background-color: $background-secondary;
+	justify-content: center;
+	width: 100%;
 }
 
 // social media icons
 i {
-  color: white;
-  font-size: 2rem;
-  padding: 0px 20px 5px 5px;
+	color: white;
+	font-size: 2rem;
+	padding: 0px 20px 5px 5px;
 }
 
 i:hover {
-  color: $font-secondary;
+	color: $font-secondary;
 }
 
 .icon-container {
-  width: 80%;
-  display: flex;
-  justify-content: flex-end;
-  margin-left: auto;
-  margin-right: 30px;
+	width: 80%;
+	display: flex;
+	justify-content: flex-end;
+	margin-left: auto;
+	margin-right: 30px;
 }
 
 @media screen and (max-width: 600px) {
-  .icon-container {
-    justify-content: center;
-    margin: auto;
-  }
+	.icon-container {
+		justify-content: center;
+		margin: auto;
+	}
 }

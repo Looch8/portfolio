@@ -2,49 +2,47 @@
 @import "./styles/components/header";
 @import "./styles/components/footer";
 @import "./styles/defaults/colors";
+@import "./styles/components/utils";
 
 body {
-  background-color: $background-primary;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
+	@include background-default();
+	display: flex;
+	flex-direction: column;
 }
 
 // container for the intro text and image of the main page
 main {
-  .intro-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+	.intro-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
 
-    img {
-      width: 250px;
-      padding: 15px;
-      border-radius: 20%;
-    }
+		img {
+			width: 250px;
+			padding: 15px;
+			border-radius: 20%;
+		}
 
-    .intro {
-      max-width: 50%;
-      color: $font-primary;
-      font-family: "Source Sans Pro", sans-serif;
-      font-size: 2rem;
-      margin-left: 20px;
-      padding-left: 10px;
+		.intro {
+			max-width: 50%;
+			color: $font-primary;
+			font-family: "Source Sans Pro", sans-serif;
+			font-size: 2rem;
+			margin-left: 20px;
+			padding-left: 10px;
 
-      span {
-        color: $font-secondary;
-      }
-    }
-  }
+			span {
+				color: $font-secondary;
+			}
+		}
+	}
 }
 
 @media screen and (max-width: 600px) {
-  .intro {
-    padding-top: 20px;
-  }
+	.intro {
+		padding-top: 20px;
+	}
 }
 
 // TO-DO
