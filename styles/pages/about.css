@@ -74,4 +74,39 @@ body {
   padding: 0px;
   display: flex;
   flex-direction: column;
+}
+
+main .about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+}
+main .about .about-heading {
+  margin-bottom: 150px;
+  font-size: 3.5rem;
+}
+main .about .about-content {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.3rem;
+}
+main .about .about-content .about-profile {
+  max-width: 50%;
+  align-items: center;
+}
+main .about .about-content .skills {
+  max-width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .about .about-content {
+    align-items: center;
+    flex-direction: column;
+  }
+  .about .skills {
+    margin-top: 50px;
+  }
 }/*# sourceMappingURL=about.css.map */

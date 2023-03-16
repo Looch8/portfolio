@@ -25,3 +25,53 @@ body {
 	display: flex;
 	flex-direction: column;
 }
+
+main {
+	// color: $font-primary;
+	// font-family: "Source Sans Pro", sans-serif;
+	// width: 100%;
+
+	.about {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+
+		color: $font-primary;
+		font-family: "Source Sans Pro", sans-serif;
+
+		.about-heading {
+			margin-bottom: 150px;
+
+			font-size: 3.5rem;
+		}
+
+		.about-content {
+			display: flex;
+			justify-content: space-around;
+
+			font-size: 1.3rem;
+
+			.about-profile {
+				max-width: 50%;
+				align-items: center;
+			}
+
+			.skills {
+				max-width: 50%;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.about {
+		.about-content {
+			align-items: center;
+			flex-direction: column;
+		}
+		.skills {
+			margin-top: 50px;
+		}
+	}
+}
