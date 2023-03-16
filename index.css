@@ -32,14 +32,20 @@ footer {
   width: 100%;
   box-sizing: border-box;
 }
-
-i {
+footer .fa-github {
   color: white;
   font-size: 2rem;
   padding: 0px 20px 5px 5px;
 }
-
-i:hover {
+footer .fa-linkedin {
+  color: white;
+  font-size: 2rem;
+  padding: 0px 20px 5px 5px;
+}
+footer .fa-linkedin:hover {
+  color: orange;
+}
+footer .fa-github:hover {
   color: orange;
 }
 

@@ -1,7 +1,7 @@
-// @import "../../styles/components/header";
-// @import "../../styles/components/footer";
-// @import "../../styles/defaults/colors";
-// @import "../../styles/components/utils";
+@import "../../styles/components/header";
+@import "../../styles/components/footer";
+@import "../../styles/defaults/colors";
+@import "../../styles/components/utils";
 
 header {
 	.nav-bar {
@@ -37,13 +37,13 @@ main {
 		align-items: center;
 		flex-wrap: wrap;
 
-		color: $font-primary;
 		font-family: "Source Sans Pro", sans-serif;
 
 		.about-heading {
 			margin-bottom: 150px;
 
 			font-size: 3.5rem;
+			color: $font-primary;
 		}
 
 		.about-content {
@@ -55,10 +55,56 @@ main {
 			.about-profile {
 				max-width: 50%;
 				align-items: center;
+				color: $font-primary;
 			}
 
+			//skills logos and associated text
 			.skills {
+				background-color: $background-secondary;
 				max-width: 50%;
+				i {
+					font-size: 3.5rem;
+					color: $font-secondary;
+				}
+
+				//logo colors
+				.fa-sass {
+					color: pink;
+				}
+
+				.fa-js {
+					color: #f0db4f;
+				}
+
+				.fa-html5 {
+					color: #e44d26;
+				}
+
+				.fa-css3-alt {
+					color: #264de4;
+				}
+
+				.fa-python {
+					color: #306998;
+				}
+
+				.fa-react {
+					color: #61dbfb;
+				}
+
+				.fa-git-alt {
+					color: #f34f29;
+				}
+
+				.fa-node {
+					color: #68a063;
+				}
+
+				//logo-text
+				.logo-name {
+					font-size: 1rem;
+					color: white;
+				}
 			}
 		}
 	}
@@ -72,6 +118,7 @@ main {
 		}
 		.skills {
 			margin-top: 50px;
+			margin-bottom: 50px;
 		}
 	}
 }

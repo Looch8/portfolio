@@ -11,18 +11,39 @@ footer {
 	width: 100%;
 	box-sizing: border-box;
 	// height: 100px;
+
+	// social media icons
+	.fa-github {
+		color: white;
+		font-size: 2rem;
+		padding: 0px 20px 5px 5px;
+	}
+
+	.fa-linkedin {
+		color: white;
+		font-size: 2rem;
+		padding: 0px 20px 5px 5px;
+	}
+
+	.fa-linkedin:hover {
+		color: $font-secondary;
+	}
+
+	.fa-github:hover {
+		color: $font-secondary;
+	}
 }
 
 // social media icons
-i {
-	color: white;
-	font-size: 2rem;
-	padding: 0px 20px 5px 5px;
-}
+// i {
+// 	color: white;
+// 	font-size: 2rem;
+// 	padding: 0px 20px 5px 5px;
+// }
 
-i:hover {
-	color: $font-secondary;
-}
+// i:hover {
+// 	color: $font-secondary;
+// }
 
 .icon-container {
 	width: 80%;

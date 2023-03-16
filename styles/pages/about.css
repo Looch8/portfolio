@@ -4,6 +4,7 @@ header {
   padding: 1rem;
   background-color: rgb(64, 62, 62);
   width: 100%;
+  box-sizing: border-box;
 }
 header .nav-bar a {
   color: white;
@@ -11,6 +12,7 @@ header .nav-bar a {
   padding: 8px;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1.3rem;
+  box-sizing: border-box;
 }
 header .nav-bar a:hover {
   color: orange;
@@ -28,15 +30,22 @@ footer {
   background-color: rgb(64, 62, 62);
   justify-content: center;
   width: 100%;
+  box-sizing: border-box;
 }
-
-i {
+footer .fa-github {
   color: white;
   font-size: 2rem;
   padding: 0px 20px 5px 5px;
 }
-
-i:hover {
+footer .fa-linkedin {
+  color: white;
+  font-size: 2rem;
+  padding: 0px 20px 5px 5px;
+}
+footer .fa-linkedin:hover {
+  color: orange;
+}
+footer .fa-github:hover {
   color: orange;
 }
 
@@ -81,12 +90,12 @@ main .about {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  color: white;
   font-family: "Source Sans Pro", sans-serif;
 }
 main .about .about-heading {
   margin-bottom: 150px;
   font-size: 3.5rem;
+  color: white;
 }
 main .about .about-content {
   display: flex;
@@ -96,9 +105,43 @@ main .about .about-content {
 main .about .about-content .about-profile {
   max-width: 50%;
   align-items: center;
+  color: white;
 }
 main .about .about-content .skills {
+  background-color: rgb(64, 62, 62);
   max-width: 50%;
+}
+main .about .about-content .skills i {
+  font-size: 3.5rem;
+  color: orange;
+}
+main .about .about-content .skills .fa-sass {
+  color: pink;
+}
+main .about .about-content .skills .fa-js {
+  color: #f0db4f;
+}
+main .about .about-content .skills .fa-html5 {
+  color: #e44d26;
+}
+main .about .about-content .skills .fa-css3-alt {
+  color: #264de4;
+}
+main .about .about-content .skills .fa-python {
+  color: #306998;
+}
+main .about .about-content .skills .fa-react {
+  color: #61dbfb;
+}
+main .about .about-content .skills .fa-git-alt {
+  color: #f34f29;
+}
+main .about .about-content .skills .fa-node {
+  color: #68a063;
+}
+main .about .about-content .skills .logo-name {
+  font-size: 1rem;
+  color: white;
 }
 
 @media screen and (max-width: 600px) {
@@ -108,5 +151,6 @@ main .about .about-content .skills {
   }
   .about .skills {
     margin-top: 50px;
+    margin-bottom: 50px;
   }
 }/*# sourceMappingURL=about.css.map */
