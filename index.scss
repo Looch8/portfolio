@@ -4,6 +4,23 @@
 @import "./styles/defaults/colors";
 @import "./styles/components/utils";
 
+header {
+	.nav-bar {
+		.home-link {
+			color: $font-secondary;
+		}
+		.about-link {
+			color: $font-primary;
+		}
+		.projects-link {
+			color: $font-primary;
+		}
+		.contacts-link {
+			color: $font-primary;
+		}
+	}
+}
+
 body {
 	@include background-default();
 	display: flex;
@@ -44,6 +61,3 @@ main {
 		padding-top: 20px;
 	}
 }
-
-// TO-DO
-// - Make Home, About, Projects, Contact button's be highlighted orange when clicked on.

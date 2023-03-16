@@ -12,9 +12,6 @@ header .nav-bar a {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1.3rem;
 }
-header .nav-bar .home-link {
-  color: orange;
-}
 header .nav-bar a:hover {
   color: orange;
 }
@@ -57,6 +54,19 @@ i:hover {
     margin: auto;
   }
 }
+header .nav-bar .home-link {
+  color: orange;
+}
+header .nav-bar .about-link {
+  color: white;
+}
+header .nav-bar .projects-link {
+  color: white;
+}
+header .nav-bar .contacts-link {
+  color: white;
+}
+
 body {
   background-color: black;
   min-height: 100vh;
