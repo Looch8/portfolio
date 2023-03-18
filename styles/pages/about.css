@@ -107,6 +107,7 @@ main .about .about-content {
 main .about .about-content .about-profile {
   max-width: 40%;
   color: white;
+  font-size: 1.5rem;
 }
 main .about .about-content .skills-row {
   display: flex;
@@ -175,6 +176,7 @@ main .about .about-content .skills .logo-name {
   }
   main .about .about-content .about-profile {
     max-width: 80%;
+    font-size: 1.3rem;
   }
   main .about .about-content .skills {
     margin-top: 50px;
