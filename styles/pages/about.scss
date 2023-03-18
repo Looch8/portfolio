@@ -41,6 +41,8 @@ main {
 			font-size: 3.5rem;
 
 			color: $font-primary;
+
+			text-shadow: 2px 4px 9px $font-secondary;
 		}
 
 		.about-content {
@@ -51,8 +53,8 @@ main {
 			font-size: 1.3rem;
 
 			.about-profile {
-				max-width: 50%;
-				align-items: center;
+				max-width: 40%;
+				// align-items: center;
 				color: $font-primary;
 			}
 
@@ -134,14 +136,25 @@ main {
 }
 
 @media screen and (max-width: 600px) {
-	.about {
-		.about-content {
-			align-items: center;
-			flex-direction: column;
-		}
-		.skills {
-			margin-top: 50px;
-			margin-bottom: 50px;
+	main {
+		.about {
+			.about-heading {
+				margin-bottom: 80px;
+			}
+			.about-content {
+				align-items: center;
+				flex-direction: column;
+
+				.about-profile {
+					max-width: 80%;
+				}
+
+				.skills {
+					margin-top: 50px;
+					margin-bottom: 50px;
+					margin-right: 50px;
+				}
+			}
 		}
 	}
 }
