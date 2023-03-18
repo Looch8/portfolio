@@ -94,7 +94,7 @@ main .about {
 }
 main .about .about-heading {
   margin-bottom: 150px;
-  font-size: 3.5rem;
+  font-size: 5.5rem;
   color: white;
   text-shadow: 2px 4px 9px orange;
 }
@@ -167,6 +167,7 @@ main .about .about-content .skills .logo-name {
 @media screen and (max-width: 600px) {
   main .about .about-heading {
     margin-bottom: 80px;
+    font-size: 4.5rem;
   }
   main .about .about-content {
     align-items: center;
