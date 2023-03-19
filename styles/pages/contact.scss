@@ -1,0 +1,28 @@
+@import "../../styles/components/header";
+@import "../../styles/components/footer";
+@import "../../styles/defaults/colors";
+@import "../../styles/components/utils";
+
+header {
+	.nav-bar {
+		.contact-link {
+			color: $font-secondary;
+		}
+		.home-link {
+			color: $font-primary;
+		}
+		.about-link {
+			color: $font-primary;
+		}
+		.projects-link {
+			color: $font-primary;
+		}
+	}
+}
+
+// Code to add background color and push footer to bottom of page
+body {
+	@include background-default();
+	display: flex;
+	flex-direction: column;
+}
