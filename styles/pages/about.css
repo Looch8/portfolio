@@ -15,7 +15,7 @@ header .nav-bar a {
   box-sizing: border-box;
 }
 header .nav-bar a:hover {
-  color: orange;
+  color: rgb(229, 153, 12);
 }
 
 @media screen and (max-width: 600px) {
@@ -43,10 +43,10 @@ footer .fa-linkedin {
   padding: 0px 20px 5px 5px;
 }
 footer .fa-linkedin:hover {
-  color: orange;
+  color: rgb(229, 153, 12);
 }
 footer .fa-github:hover {
-  color: orange;
+  color: rgb(229, 153, 12);
 }
 
 .icon-container {
@@ -64,7 +64,7 @@ footer .fa-github:hover {
   }
 }
 header .nav-bar .about-link {
-  color: orange;
+  color: rgb(229, 153, 12);
 }
 header .nav-bar .projects-link {
   color: white;
@@ -96,7 +96,7 @@ main .about .about-heading {
   margin-bottom: 150px;
   font-size: 5.5rem;
   color: white;
-  border-bottom: 18px solid orange;
+  border-bottom: 18px solid rgb(229, 153, 12);
 }
 main .about .about-content {
   display: flex;
@@ -113,7 +113,7 @@ main .about .about-content .about-profile a {
   text-decoration: none;
 }
 main .about .about-content .about-profile a span {
-  color: orange;
+  color: rgb(229, 153, 12);
   font-weight: bolder;
 }
 main .about .about-content .skills-row {
@@ -140,7 +140,7 @@ main .about .about-content .skills {
 }
 main .about .about-content .skills i {
   font-size: 3.5rem;
-  color: orange;
+  color: rgb(229, 153, 12);
 }
 main .about .about-content .skills .fa-sass {
   color: pink;

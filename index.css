@@ -15,7 +15,7 @@ header .nav-bar a {
   box-sizing: border-box;
 }
 header .nav-bar a:hover {
-  color: orange;
+  color: rgb(229, 153, 12);
 }
 
 @media screen and (max-width: 600px) {
@@ -43,10 +43,10 @@ footer .fa-linkedin {
   padding: 0px 20px 5px 5px;
 }
 footer .fa-linkedin:hover {
-  color: orange;
+  color: rgb(229, 153, 12);
 }
 footer .fa-github:hover {
-  color: orange;
+  color: rgb(229, 153, 12);
 }
 
 .icon-container {
@@ -64,7 +64,7 @@ footer .fa-github:hover {
   }
 }
 header .nav-bar .home-link {
-  color: orange;
+  color: rgb(229, 153, 12);
 }
 header .nav-bar .about-link {
   color: white;
@@ -105,7 +105,7 @@ main .intro-container .intro {
   padding-left: 10px;
 }
 main .intro-container .intro span {
-  color: orange;
+  color: rgb(229, 153, 12);
 }
 
 @media screen and (max-width: 600px) {

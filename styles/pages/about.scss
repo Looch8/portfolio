@@ -65,8 +65,6 @@ main {
 
 					span {
 						color: $font-secondary;
-						// font-style: italic;
-						// font-size: 1.8rem;
 						font-weight: bolder;
 					}
 				}
@@ -149,6 +147,7 @@ main {
 	}
 }
 
+// Mobile and Tablet screen
 @media screen and (max-width: 600px) {
 	main {
 		.about {

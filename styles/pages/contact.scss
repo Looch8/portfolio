@@ -83,8 +83,8 @@ main {
 			#submit {
 				height: 40px;
 				min-width: 120px;
-				background-color: $font-primary;
-				color: $font-secondary;
+				background-color: $font-secondary;
+				color: $font-primary;
 				border-radius: 4px;
 				border: none;
 				outline: none;
@@ -92,8 +92,8 @@ main {
 
 				&:hover {
 					cursor: pointer;
-					background-color: $font-secondary;
-					color: $font-primary;
+					background-color: $font-primary;
+					color: $font-secondary;
 				}
 			}
 		}
