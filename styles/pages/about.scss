@@ -42,7 +42,9 @@ main {
 
 			color: $font-primary;
 
-			text-shadow: 2px 4px 9px $font-secondary;
+			border-bottom: 18px solid $font-secondary;
+
+			// text-shadow: 2px 4px 9px $font-secondary;
 		}
 
 		.about-content {
@@ -63,7 +65,9 @@ main {
 
 					span {
 						color: $font-secondary;
-						font-style: italic;
+						// font-style: italic;
+						// font-size: 1.8rem;
+						font-weight: bolder;
 					}
 				}
 			}

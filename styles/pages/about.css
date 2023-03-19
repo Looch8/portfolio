@@ -96,7 +96,7 @@ main .about .about-heading {
   margin-bottom: 150px;
   font-size: 5.5rem;
   color: white;
-  text-shadow: 2px 4px 9px orange;
+  border-bottom: 18px solid orange;
 }
 main .about .about-content {
   display: flex;
@@ -114,7 +114,7 @@ main .about .about-content .about-profile a {
 }
 main .about .about-content .about-profile a span {
   color: orange;
-  font-style: italic;
+  font-weight: bolder;
 }
 main .about .about-content .skills-row {
   display: flex;

@@ -36,6 +36,12 @@ main {
 
 	h2 {
 		color: $font-secondary;
+
+		font-size: 2.5rem;
+
+		color: $font-primary;
+
+		border-bottom: 9px solid $font-secondary;
 	}
 
 	form {
@@ -65,9 +71,9 @@ main {
 					resize: none;
 				}
 
-				&:focus {
-					box-shadow: 0 0 8px 3px $font-primary;
-				}
+				// &:focus {
+				// 	box-shadow: 0 0 8px 3px $font-primary;
+				// }
 			}
 		}
 
@@ -86,7 +92,24 @@ main {
 
 				&:hover {
 					cursor: pointer;
-					background-color: #45a7c590;
+					background-color: $font-secondary;
+					color: $font-primary;
+				}
+			}
+		}
+	}
+}
+
+// Desktop and tablet screen
+@media screen and (min-width: 600px) {
+	main {
+		form {
+			.form-elements {
+				flex-direction: row;
+				justify-content: space-between;
+
+				.form-input {
+					width: 70%;
 				}
 			}
 		}
