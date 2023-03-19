@@ -109,6 +109,13 @@ main .about .about-content .about-profile {
   color: white;
   font-size: 1.5rem;
 }
+main .about .about-content .about-profile a {
+  text-decoration: none;
+}
+main .about .about-content .about-profile a span {
+  color: orange;
+  font-style: italic;
+}
 main .about .about-content .skills-row {
   display: flex;
   flex-direction: column;

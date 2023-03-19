@@ -57,6 +57,15 @@ main {
 				// align-items: center;
 				color: $font-primary;
 				font-size: 1.5rem;
+
+				a {
+					text-decoration: none;
+
+					span {
+						color: $font-secondary;
+						font-style: italic;
+					}
+				}
 			}
 
 			//logo rows
