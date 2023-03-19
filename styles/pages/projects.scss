@@ -1,0 +1,32 @@
+@import "../../styles/components/header";
+@import "../../styles/components/footer";
+@import "../../styles/defaults/colors";
+@import "../../styles/components/utils";
+
+header {
+	.nav-bar {
+		.projects-link {
+			color: $font-secondary;
+		}
+
+		.about-link {
+			color: $font-primary;
+		}
+
+		.home-link {
+			color: $font-primary;
+		}
+		.contacts-link {
+			color: $font-primary;
+		}
+	}
+}
+
+body {
+	@include background-default();
+	display: flex;
+	flex-direction: column;
+}
+
+main {
+}
