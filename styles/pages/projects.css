@@ -112,13 +112,13 @@ main .blog-container .blog-post {
   flex-direction: row;
   margin-bottom: 24px;
 }
-main .blog-container .blog-post .blog-date {
+main .blog-container .blog-post .header-text .blog-date {
   margin-bottom: 6px;
 }
-main .blog-container .blog-post .blog-date strong {
+main .blog-container .blog-post .header-text .blog-date strong {
   font-size: 1.5rem;
 }
-main .blog-container .blog-post .blog-text {
+main .blog-container .blog-post .header-text .blog-text {
   margin-bottom: 24px;
   font-size: 1.2rem;
 }
@@ -131,17 +131,29 @@ main .blog-container .blog-post img {
     padding: 24px;
     flex-wrap: wrap;
   }
-  main .blog-container .blog-post .blog-date {
+  main .blog-container .blog-post img {
+    margin-bottom: 62px;
+    width: 400px;
+  }
+  main .blog-container .blog-post .header-text .blog-date {
     display: flex;
     flex-direction: column;
     margin-bottom: 32px;
     border-bottom: 6px solid rgb(229, 153, 12);
   }
-  main .blog-container .blog-post .blog-date strong {
+  main .blog-container .blog-post .header-text .blog-date strong {
     font-size: 1.8rem;
   }
-  main .blog-container .blog-post img {
-    margin-bottom: 62px;
-    width: 400px;
+}
+@media screen and (min-width: 600px) {
+  main .blog-container {
+    flex-direction: row;
+  }
+  main .blog-container .blog-post {
+    flex-direction: container;
+    margin-bottom: 48px;
+  }
+  main .blog-container .blog-post .header-text .blog-text {
+    max-width: 50%;
   }
 }/*# sourceMappingURL=projects.css.map */
