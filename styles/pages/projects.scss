@@ -132,11 +132,24 @@ main {
 			flex-direction: row;
 			.blog-post {
 				flex-direction: container;
-				margin-bottom: 48px;
+				margin-bottom: 200px;
+
+				img {
+					width: 600px;
+				}
 
 				.header-text {
+					.blog-date {
+						margin-bottom: 32px;
+
+						strong {
+							border-bottom: 6px solid $font-secondary;
+							font-size: 2rem;
+						}
+					}
 					.blog-text {
-						max-width: 50%;
+						max-width: 70%;
+						font-size: 1.5rem;
 					}
 				}
 			}
