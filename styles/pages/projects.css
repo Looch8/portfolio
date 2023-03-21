@@ -95,10 +95,14 @@ main .blog-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   margin-left: 24px;
   margin-right: 24px;
 }
 main .blog-container .blog-post {
+  display: flex;
+  flex-direction: row;
   margin-bottom: 24px;
 }
 main .blog-container .blog-post .blog-date {
@@ -109,4 +113,10 @@ main .blog-container .blog-post .blog-text {
 }
 main .blog-container .blog-post img {
   width: 350px;
+}
+
+@media screen and (max-width: 600px) {
+  main .blog-container .blog-post {
+    flex-wrap: wrap;
+  }
 }/*# sourceMappingURL=projects.css.map */

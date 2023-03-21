@@ -44,14 +44,18 @@ main {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+
 		margin-left: 24px;
 		margin-right: 24px;
 
 		// flex-wrap: wrap;
 
 		.blog-post {
-			// display: flex;
-			// flex-direction: column;
+			display: flex;
+			flex-direction: row;
+
 			margin-bottom: 24px;
 
 			.blog-date {
@@ -64,6 +68,17 @@ main {
 
 			img {
 				width: 350px;
+			}
+		}
+	}
+}
+
+// Mobile view
+@media screen and (max-width: 600px) {
+	main {
+		.blog-container {
+			.blog-post {
+				flex-wrap: wrap;
 			}
 		}
 	}
