@@ -1,7 +1,12 @@
-@import "../../styles/components/header";
-@import "../../styles/components/footer";
-@import "../../styles/defaults/colors";
-@import "../../styles/components/utils";
+// @import "../../styles/components/header";
+// @import "../../styles/components/footer";
+// @import "../../styles/defaults/colors";
+// @import "../../styles/components/utils";
+
+@import "/styles/components/header";
+@import "/styles/components/footer";
+@import "/styles/defaults/colors";
+@import "/styles/components/utils";
 
 header {
 	.nav-bar {
