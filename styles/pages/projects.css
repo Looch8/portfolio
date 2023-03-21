@@ -106,4 +106,7 @@ main .blog-container .blog-post .blog-date {
 }
 main .blog-container .blog-post .blog-text {
   margin-bottom: 24px;
+}
+main .blog-container .blog-post img {
+  width: 350px;
 }/*# sourceMappingURL=projects.css.map */
