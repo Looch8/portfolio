@@ -83,4 +83,27 @@ body {
   padding: 0px;
   display: flex;
   flex-direction: column;
+}
+
+main {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main .blog-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+main .blog-container .blog-post {
+  margin-bottom: 24px;
+}
+main .blog-container .blog-post .blog-date {
+  margin-bottom: 6px;
+}
+main .blog-container .blog-post .blog-text {
+  margin-bottom: 24px;
 }/*# sourceMappingURL=projects.css.map */

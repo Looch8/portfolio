@@ -1,12 +1,12 @@
-// @import "../../styles/components/header";
-// @import "../../styles/components/footer";
-// @import "../../styles/defaults/colors";
-// @import "../../styles/components/utils";
+@import "../../styles/components/header";
+@import "../../styles/components/footer";
+@import "../../styles/defaults/colors";
+@import "../../styles/components/utils";
 
-@import "/styles/components/header";
-@import "/styles/components/footer";
-@import "/styles/defaults/colors";
-@import "/styles/components/utils";
+// @import "/styles/components/header";
+// @import "/styles/components/footer";
+// @import "/styles/defaults/colors";
+// @import "/styles/components/utils";
 
 header {
 	.nav-bar {
@@ -34,4 +34,33 @@ body {
 }
 
 main {
+	color: $font-primary;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+	.blog-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-left: 24px;
+		margin-right: 24px;
+
+		// flex-wrap: wrap;
+
+		.blog-post {
+			// display: flex;
+			// flex-direction: column;
+			margin-bottom: 24px;
+
+			.blog-date {
+				margin-bottom: 6px;
+			}
+
+			.blog-text {
+				margin-bottom: 24px;
+			}
+		}
+	}
 }
