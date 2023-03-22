@@ -90,6 +90,7 @@ main {
 
 			img {
 				width: 450px;
+				// box-sizing: border-box;
 			}
 		}
 	}
@@ -102,13 +103,19 @@ main {
 			.blog-post {
 				padding: 24px;
 				flex-wrap: wrap;
+				box-sizing: border-box;
 
 				img {
 					margin-bottom: 62px;
-					width: 400px;
+					width: 380px;
+					box-sizing: border-box;
 				}
 
 				.header-text {
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
 					.blog-date {
 						display: flex;
 						flex-direction: column;
@@ -118,6 +125,10 @@ main {
 						strong {
 							font-size: 1.8rem;
 						}
+					}
+
+					.blog-text {
+						max-width: 80%;
 					}
 				}
 			}

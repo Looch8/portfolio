@@ -130,10 +130,18 @@ main .blog-container .blog-post img {
   main .blog-container .blog-post {
     padding: 24px;
     flex-wrap: wrap;
+    box-sizing: border-box;
   }
   main .blog-container .blog-post img {
     margin-bottom: 62px;
-    width: 400px;
+    width: 380px;
+    box-sizing: border-box;
+  }
+  main .blog-container .blog-post .header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   main .blog-container .blog-post .header-text .blog-date {
     display: flex;
@@ -143,6 +151,9 @@ main .blog-container .blog-post img {
   }
   main .blog-container .blog-post .header-text .blog-date strong {
     font-size: 1.8rem;
+  }
+  main .blog-container .blog-post .header-text .blog-text {
+    max-width: 80%;
   }
 }
 @media screen and (min-width: 600px) {
