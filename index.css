@@ -20,13 +20,15 @@ header .nav-bar a:hover {
 
 @media screen and (max-width: 600px) {
   header {
+    width: 100%;
     justify-content: center;
+    box-sizing: border-box;
   }
 }
 footer {
   margin-top: auto;
   display: flex;
-  padding: 1.5rem;
+  padding: 1rem;
   background-color: rgb(64, 62, 62);
   justify-content: center;
   width: 100%;
@@ -53,8 +55,6 @@ footer .fa-github:hover {
   width: 80%;
   display: flex;
   justify-content: flex-end;
-  margin-left: auto;
-  margin-right: 30px;
 }
 
 @media screen and (max-width: 600px) {
@@ -109,7 +109,11 @@ main .intro-container .intro span {
 }
 
 @media screen and (max-width: 600px) {
-  .intro {
+  main .intro-container {
+    margin-top: 80px;
+  }
+  main .intro-container .intro {
     padding-top: 20px;
+    margin-bottom: 80px;
   }
 }/*# sourceMappingURL=index.css.map */
