@@ -99,6 +99,8 @@ main {
 // Mobile view
 @media screen and (max-width: 600px) {
 	main {
+		//Hides horizontal scrolling
+		overflow-x: hidden;
 		.blog-container {
 			.blog-post {
 				padding: 24px;
@@ -107,7 +109,7 @@ main {
 
 				img {
 					margin-bottom: 62px;
-					width: 380px;
+					max-width: 380px;
 					box-sizing: border-box;
 				}
 

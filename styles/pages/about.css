@@ -173,6 +173,9 @@ main .about .about-content .skills .logo-name {
 }
 
 @media screen and (max-width: 600px) {
+  main {
+    overflow-x: hidden;
+  }
   main .about .about-heading {
     margin-bottom: 80px;
     font-size: 4.5rem;

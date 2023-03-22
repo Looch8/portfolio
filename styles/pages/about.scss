@@ -150,6 +150,8 @@ main {
 // Mobile and Tablet screen
 @media screen and (max-width: 600px) {
 	main {
+		// hides horizontal scrolling
+		overflow-x: hidden;
 		.about {
 			.about-heading {
 				margin-bottom: 80px;

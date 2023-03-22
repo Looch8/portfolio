@@ -127,6 +127,9 @@ main .blog-container .blog-post img {
 }
 
 @media screen and (max-width: 600px) {
+  main {
+    overflow-x: hidden;
+  }
   main .blog-container .blog-post {
     padding: 24px;
     flex-wrap: wrap;
@@ -134,7 +137,7 @@ main .blog-container .blog-post img {
   }
   main .blog-container .blog-post img {
     margin-bottom: 62px;
-    width: 380px;
+    max-width: 380px;
     box-sizing: border-box;
   }
   main .blog-container .blog-post .header-text {
