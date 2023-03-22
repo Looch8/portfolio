@@ -137,7 +137,7 @@ main .blog-container .blog-post img {
   }
   main .blog-container .blog-post img {
     margin-bottom: 62px;
-    max-width: 380px;
+    width: 350px;
     box-sizing: border-box;
   }
   main .blog-container .blog-post .header-text {
