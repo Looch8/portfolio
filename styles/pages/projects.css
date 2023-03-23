@@ -122,7 +122,12 @@ main .blog-container ul .list {
 }
 main .blog-container ul .list li {
   padding: 5px;
-  text-align: center;
+  text-align: left;
+}
+main .blog-container ul .list li .list-date {
+  font-size: 1rem;
+  font-style: italic;
+  margin-left: 10px;
 }
 main .blog-container .blog-post {
   display: flex;
@@ -146,6 +151,12 @@ main .blog-container .blog-post img {
 @media screen and (max-width: 1000px) {
   main {
     overflow-x: hidden;
+  }
+  main .blog-container ul .list li .list-title {
+    text-align: left;
+  }
+  main .blog-container ul .list li .list-date {
+    text-align: end;
   }
   main .blog-container .blog-post {
     padding: 24px;
@@ -173,7 +184,7 @@ main .blog-container .blog-post img {
     font-size: 1.8rem;
   }
   main .blog-container .blog-post .header-text .blog-text {
-    max-width: 80%;
+    max-width: 100%;
   }
 }
 @media screen and (min-width: 1000px) {

@@ -80,7 +80,13 @@ main {
 
 				li {
 					padding: 5px;
-					text-align: center;
+					text-align: left;
+
+					.list-date {
+						font-size: 1rem;
+						font-style: italic;
+						margin-left: 10px;
+					}
 				}
 			}
 		}
@@ -125,6 +131,20 @@ main {
 		overflow-x: hidden;
 
 		.blog-container {
+			// Blog list
+			ul {
+				.list {
+					li {
+						.list-title {
+							text-align: left;
+						}
+						.list-date {
+							text-align: end;
+						}
+					}
+				}
+			}
+
 			.blog-post {
 				padding: 24px;
 				flex-wrap: wrap;
@@ -153,7 +173,7 @@ main {
 					}
 
 					.blog-text {
-						max-width: 80%;
+						max-width: 100%;
 					}
 				}
 			}
