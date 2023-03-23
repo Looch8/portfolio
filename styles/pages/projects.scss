@@ -63,6 +63,28 @@ main {
 		margin-left: 24px;
 		margin-right: 24px;
 
+		// Blog list
+		ul {
+			text-align: center;
+			margin-bottom: 230px;
+			list-style-type: none;
+
+			strong {
+				font-size: 2.8rem;
+				border-bottom: 6px solid $font-secondary;
+			}
+
+			.list {
+				margin-top: 30px;
+				font-size: 1.5rem;
+
+				li {
+					padding: 5px;
+					text-align: center;
+				}
+			}
+		}
+
 		// Individual container for each blog text, image, and header
 		.blog-post {
 			display: flex;
@@ -77,7 +99,7 @@ main {
 
 					// Blog title
 					strong {
-						font-size: 1.5rem;
+						font-size: 1.8rem;
 					}
 				}
 
@@ -97,7 +119,7 @@ main {
 }
 
 // Mobile view
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
 	main {
 		//Hides horizontal scrolling
 		overflow-x: hidden;
@@ -140,7 +162,7 @@ main {
 }
 
 // Desktop View
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1000px) {
 	main {
 		.blog-container {
 			flex-direction: row;
