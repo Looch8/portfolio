@@ -185,7 +185,7 @@ main .about .about-content .skills .logo-name {
     flex-direction: column;
   }
   main .about .about-content .about-profile {
-    max-width: 80%;
+    max-width: 70%;
     font-size: 1.3rem;
   }
   main .about .about-content .skills {
