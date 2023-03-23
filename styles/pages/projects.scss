@@ -3,10 +3,10 @@
 @import "../../styles/defaults/colors";
 @import "../../styles/components/utils";
 
-// @import "/styles/components/header";
-// @import "/styles/components/footer";
-// @import "/styles/defaults/colors";
-// @import "/styles/components/utils";
+// Smooth scrolling when clicking on an anchor tag
+html {
+	scroll-behavior: smooth;
+}
 
 header {
 	.nav-bar {
@@ -82,6 +82,15 @@ main {
 					padding: 5px;
 					text-align: left;
 
+					a {
+						text-decoration: none;
+						color: $font-primary;
+
+						&:hover {
+							color: $font-secondary;
+						}
+					}
+
 					.list-date {
 						font-size: 1rem;
 						font-style: italic;
@@ -100,7 +109,7 @@ main {
 
 			.header-text {
 				// title and date for blog
-				.blog-date {
+				.blog-title {
 					margin-bottom: 6px;
 
 					// Blog title
@@ -133,6 +142,7 @@ main {
 		.blog-container {
 			// Blog list
 			ul {
+				padding: 10px;
 				.list {
 					li {
 						.list-title {
@@ -161,11 +171,16 @@ main {
 					flex-direction: column;
 					justify-content: center;
 					align-items: center;
-					.blog-date {
+
+					.blog-title {
 						display: flex;
 						flex-direction: column;
 						margin-bottom: 32px;
 						border-bottom: 6px solid $font-secondary;
+
+						.blog-date {
+							font-style: italic;
+						}
 
 						strong {
 							font-size: 1.8rem;
@@ -173,6 +188,7 @@ main {
 					}
 
 					.blog-text {
+						padding: 15px;
 						max-width: 100%;
 					}
 				}
@@ -181,7 +197,7 @@ main {
 	}
 }
 
-// Desktop View
+// Desktop and tablet View
 @media screen and (min-width: 1000px) {
 	main {
 		.blog-container {
@@ -195,8 +211,13 @@ main {
 				}
 
 				.header-text {
-					.blog-date {
+					.blog-title {
 						margin-bottom: 32px;
+
+						.blog-date {
+							margin-left: 10px;
+							font-style: italic;
+						}
 
 						strong {
 							border-bottom: 6px solid $font-secondary;
