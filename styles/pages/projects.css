@@ -252,6 +252,7 @@ main .blog-container .blog-post img {
   main .blog-container .blog-post .header-text .blog-text {
     padding: 15px;
     max-width: 100%;
+    font-size: 1.3rem;
   }
 }
 @media screen and (min-width: 1051px) {
