@@ -108,12 +108,25 @@ main .intro-container .intro span {
   color: rgb(229, 153, 12);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   main .intro-container {
     margin-top: 80px;
   }
   main .intro-container .intro {
     padding-top: 20px;
     margin-bottom: 80px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1050px) {
+  main .intro-container .intro {
+    font-size: 2.2rem;
+  }
+}
+@media screen and (min-width: 1051px) {
+  main .intro-container img {
+    width: 280px;
+  }
+  main .intro-container .intro {
+    font-size: 3.2rem;
   }
 }/*# sourceMappingURL=index.css.map */

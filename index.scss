@@ -2,6 +2,7 @@
 @import "./styles/components/header";
 @import "./styles/components/footer";
 @import "./styles/defaults/colors";
+@import "./styles/defaults/breakpoints";
 @import "./styles/components/utils";
 
 header {
@@ -57,13 +58,38 @@ main {
 }
 
 // Mobile view
-@media screen and (max-width: 600px) {
+@media screen and (max-width: $small) {
 	main {
 		.intro-container {
 			margin-top: 80px;
 			.intro {
 				padding-top: 20px;
 				margin-bottom: 80px;
+			}
+		}
+	}
+}
+
+// tablet view
+@media (min-width: $medium-min) and (max-width: $medium-max) {
+	main {
+		.intro-container {
+			.intro {
+				font-size: 2.2rem;
+			}
+		}
+	}
+}
+
+// Desktop view
+@media screen and (min-width: $large) {
+	main {
+		.intro-container {
+			img {
+				width: 280px;
+			}
+			.intro {
+				font-size: 3.2rem;
 			}
 		}
 	}
