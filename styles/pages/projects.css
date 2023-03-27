@@ -159,7 +159,7 @@ main .blog-container .blog-post img {
   width: 450px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 767px) {
   main {
     overflow-x: hidden;
   }
@@ -176,6 +176,7 @@ main .blog-container .blog-post img {
     padding: 24px;
     flex-wrap: wrap;
     box-sizing: border-box;
+    justify-content: center;
   }
   main .blog-container .blog-post img {
     margin-bottom: 62px;
@@ -205,7 +206,55 @@ main .blog-container .blog-post img {
     max-width: 100%;
   }
 }
-@media screen and (min-width: 1000px) {
+@media (min-width: 768px) and (max-width: 1050px) {
+  main {
+    overflow-x: hidden;
+  }
+  main .blog-container ul {
+    padding: 10px;
+  }
+  main .blog-container ul .list li .list-title {
+    text-align: left;
+  }
+  main .blog-container ul .list li .list-date {
+    text-align: end;
+  }
+  main .blog-container .blog-post {
+    padding: 24px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+  }
+  main .blog-container .blog-post img {
+    margin-bottom: 62px;
+    width: 550px;
+    box-sizing: border-box;
+  }
+  main .blog-container .blog-post .header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main .blog-container .blog-post .header-text .blog-title {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+    border-bottom: 6px solid rgb(229, 153, 12);
+  }
+  main .blog-container .blog-post .header-text .blog-title .blog-date {
+    font-style: italic;
+  }
+  main .blog-container .blog-post .header-text .blog-title strong {
+    font-size: 1.8rem;
+  }
+  main .blog-container .blog-post .header-text .blog-text {
+    padding: 15px;
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 1051px) {
   main .blog-container {
     flex-direction: row;
   }
