@@ -172,7 +172,7 @@ main .about .about-content .skills .logo-name {
   font-family: "Source Sans Pro", sans-serif;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   main {
     overflow-x: hidden;
   }
@@ -192,5 +192,30 @@ main .about .about-content .skills .logo-name {
     margin-top: 50px;
     margin-bottom: 50px;
     margin-right: 50px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1050px) {
+  main {
+    overflow-x: hidden;
+  }
+  main .about .about-heading {
+    margin-bottom: 80px;
+  }
+  main .about .about-content {
+    margin-bottom: 50px;
+  }
+  main .about .about-content .about-profile {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 1051px) {
+  main .about .about-heading {
+    margin-bottom: 80px;
+  }
+  main .about .about-content {
+    margin-bottom: 50px;
+  }
+  main .about .about-content .about-profile {
+    font-size: 1.7rem;
   }
 }/*# sourceMappingURL=about.css.map */

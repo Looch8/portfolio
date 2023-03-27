@@ -1,6 +1,7 @@
 @import "../../styles/components/header";
 @import "../../styles/components/footer";
 @import "../../styles/defaults/colors";
+@import "../../styles/defaults/breakpoints";
 @import "../../styles/components/utils";
 
 header {
@@ -147,8 +148,10 @@ main {
 	}
 }
 
-// Mobile and Tablet screen
-@media screen and (max-width: 600px) {
+// BREAKPOINTS
+
+// Mobile view
+@media screen and (max-width: $small) {
 	main {
 		// hides horizontal scrolling
 		overflow-x: hidden;
@@ -170,6 +173,44 @@ main {
 					margin-top: 50px;
 					margin-bottom: 50px;
 					margin-right: 50px;
+				}
+			}
+		}
+	}
+}
+
+// tablet view
+@media (min-width: $medium-min) and (max-width: $medium-max) {
+	main {
+		// hides horizontal scrolling
+		overflow-x: hidden;
+		.about {
+			.about-heading {
+				margin-bottom: 80px;
+			}
+			.about-content {
+				margin-bottom: 50px;
+
+				.about-profile {
+					font-size: 1.5rem;
+				}
+			}
+		}
+	}
+}
+
+// Desktop view
+@media screen and (min-width: $large) {
+	main {
+		.about {
+			.about-heading {
+				margin-bottom: 80px;
+			}
+			.about-content {
+				margin-bottom: 50px;
+
+				.about-profile {
+					font-size: 1.7rem;
 				}
 			}
 		}
