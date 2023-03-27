@@ -6,6 +6,7 @@
 @import "../../styles/components/header";
 @import "../../styles/components/footer";
 @import "../../styles/defaults/colors";
+@import "../../styles/defaults/breakpoints";
 @import "../../styles/components/utils";
 
 // nav link
@@ -33,6 +34,7 @@ body {
 	flex-direction: column;
 }
 
+// Mobile View
 main {
 	display: flex;
 	flex-direction: column;
@@ -107,8 +109,10 @@ main {
 	}
 }
 
-// Desktop and tablet screen
-@media screen and (min-width: 600px) {
+//BREAKPOINTS
+
+// Tablet view
+@media (min-width: $medium-min) and (max-width: $medium-max) {
 	main {
 		form {
 			.form-elements {
@@ -118,6 +122,29 @@ main {
 				.form-input {
 					width: 70%;
 				}
+			}
+		}
+	}
+}
+
+// Desktop view
+@media screen and (min-width: $large) {
+	main {
+		h2 {
+			font-size: 3.5rem;
+		}
+		form {
+			.form-elements {
+				flex-direction: row;
+				justify-content: space-between;
+				margin-bottom: 30px;
+
+				.form-input {
+					width: 70%;
+				}
+			}
+			.btn-div {
+				margin-top: 40px;
 			}
 		}
 	}

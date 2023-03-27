@@ -143,12 +143,28 @@ main form .btn-div #submit:hover {
   color: rgb(229, 153, 12);
 }
 
-@media screen and (min-width: 600px) {
+@media (min-width: 768px) and (max-width: 1050px) {
   main form .form-elements {
     flex-direction: row;
     justify-content: space-between;
   }
   main form .form-elements .form-input {
     width: 70%;
+  }
+}
+@media screen and (min-width: 1051px) {
+  main h2 {
+    font-size: 3.5rem;
+  }
+  main form .form-elements {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  main form .form-elements .form-input {
+    width: 70%;
+  }
+  main form .btn-div {
+    margin-top: 40px;
   }
 }/*# sourceMappingURL=contact.css.map */
