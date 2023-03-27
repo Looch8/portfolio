@@ -1,6 +1,7 @@
 @import "../../styles/components/header";
 @import "../../styles/components/footer";
 @import "../../styles/defaults/colors";
+@import "../../styles/defaults/breakpoints";
 @import "../../styles/components/utils";
 
 // Smooth scrolling when clicking on an anchor tag
@@ -134,7 +135,7 @@ main {
 }
 
 // Mobile View
-@media screen and (max-width: 767px) {
+@media screen and (max-width: $small) {
 	main {
 		//Hides horizontal scrolling
 		overflow-x: hidden;
@@ -199,7 +200,7 @@ main {
 }
 
 // Tablet view
-@media (min-width: 768px) and (max-width: 1050px) {
+@media (min-width: $medium-min) and (max-width: $medium-max) {
 	main {
 		//Hides horizontal scrolling
 		overflow-x: hidden;
@@ -250,7 +251,7 @@ main {
 						}
 
 						strong {
-							font-size: 1.8rem;
+							font-size: 1.9rem;
 						}
 					}
 
@@ -266,7 +267,7 @@ main {
 }
 
 // Desktop view
-@media screen and (min-width: 1051px) {
+@media screen and (min-width: $large) {
 	main {
 		.blog-container {
 			flex-direction: row;
