@@ -18,16 +18,14 @@ header {
 			box-sizing: border-box;
 		}
 
-		// .home-link {
-		// 	color: $font-secondary;
-		// }
-
+		// Color change effect when hovering over nav Link
 		a:hover {
 			color: $font-secondary;
 		}
 	}
 }
 
+// Mobile view - center Nav links
 @media screen and (max-width: 600px) {
 	header {
 		width: 100%;

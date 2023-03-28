@@ -10,7 +10,6 @@ footer {
 
 	width: 100%;
 	box-sizing: border-box;
-	// height: 100px;
 
 	// social media icons
 	.fa-github {
@@ -34,24 +33,13 @@ footer {
 	}
 }
 
-// social media icons
-// i {
-// 	color: white;
-// 	font-size: 2rem;
-// 	padding: 0px 20px 5px 5px;
-// }
-
-// i:hover {
-// 	color: $font-secondary;
-// }
-
 .icon-container {
 	width: 80%;
 	display: flex;
 	justify-content: flex-end;
-	// margin-left: auto;
 }
 
+// Mobile view - center Footer Links
 @media screen and (max-width: 600px) {
 	.icon-container {
 		justify-content: center;

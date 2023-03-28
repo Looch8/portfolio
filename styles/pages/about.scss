@@ -5,6 +5,7 @@
 @import "../../styles/components/utils";
 
 header {
+	// Links to each page.
 	.nav-bar {
 		.about-link {
 			color: $font-secondary;
@@ -22,12 +23,14 @@ header {
 }
 
 body {
+	// Default background color, view height, margin and padding
 	@include background-default();
 	display: flex;
 	flex-direction: column;
 }
 
 main {
+	// Profile Section including styling for Resume link
 	.about {
 		display: flex;
 		justify-content: center;
@@ -44,8 +47,6 @@ main {
 			color: $font-primary;
 
 			border-bottom: 18px solid $font-secondary;
-
-			// text-shadow: 2px 4px 9px $font-secondary;
 		}
 
 		.about-content {
@@ -61,6 +62,7 @@ main {
 				color: $font-primary;
 				font-size: 1.5rem;
 
+				// Resume Link
 				a {
 					text-decoration: none;
 

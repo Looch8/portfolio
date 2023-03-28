@@ -5,6 +5,7 @@
 @import "./styles/defaults/breakpoints";
 @import "./styles/components/utils";
 
+// Nav-bar links
 header {
 	.nav-bar {
 		.home-link {
@@ -23,6 +24,7 @@ header {
 }
 
 body {
+	// Default background color, view height, margin and padding
 	@include background-default();
 	display: flex;
 	flex-direction: column;
