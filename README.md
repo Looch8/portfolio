@@ -26,14 +26,20 @@ My portfolio includes the following functionality and features:
 
 5. _Responsive Design:_ This webpage was developed to be optimized for all devices, including desktop, tablet, and mobile to ensure that it looks acceptable and functions seamlessly across all devices.
 
+**Target Audience:**
+The Target audience for my portfolio is potential employers, and clients.
+It is a way for me to showcase my skills, and continually update my portfolio as I continue to develop my skills and build more projects.
+This portfolio may be viewed by anyone who is interested in assessing my skills, experience, or who may wish to contact me.
+
+**Tech Stack:**
+The design aspect of this project was completed using Draw.io to develop the wireframe, and Figma to design the proposed look of the webpage at mobile, tablet, and desktop views.
+The tech stack used in this project was HTML, and SCSS.
+And finally this project was deployed using Netlify.
+
 <!-- TO DO -->
 
 <!--
 A link to your presentation video
-Description of your portfolio website, including,
-Purpose
-Functionality / features
 Sitemap
 Screenshots
-Target audience
-Tech stack (e.g. html, css, deployment platform, etc) -->
+ -->
