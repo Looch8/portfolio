@@ -85,14 +85,37 @@ It is a way for me to showcase my skills, and continually update my portfolio as
 This portfolio may be viewed by anyone who is interested in assessing my skills, experience, or who may wish to contact me.
 
 **Tech Stack:**
-The design aspect of this project was completed using Draw.io to develop the wireframe, and Figma to design the proposed look of the webpage at mobile, tablet, and desktop views.
 The tech stack used in this project was HTML, and SCSS.
-And finally this project was deployed using Netlify.
+This project was deployed using Netlify.
+
+The design aspect of this project was completed using Draw.io to develop the sitemap, and Figma to develop the wireframe and design the proposed look of the webpage at mobile, tablet, and desktop views.
+
+Sitemap
+![Sitemap](/docs/portfolio_sitemap.drawio.png)
+
+At the start of my design process I wanted to have my navbar at the bottom of the page and use one long continous page to scroll through all the sections of my portfolio.
+Here are some images of my original design
+
+Old Wireframe Design
+![Old Wireframe](/docs/oldmobile_wireframe1.png) ![Old Wireframe](/docs/oldmobile_wireframe2.png) ![Old Wireframe](/docs/oldmobile_wireframe3.png) ![Old Wireframe](/docs/oldmobile_wireframe4.png)
+
+As I started implementing my design into code, I had a change of mind and decided I would rather use a header with my navbar at the top and a footer with my social media links on every page.
+I also made some minor changes to the layout and changed my 'projects' page to a 'blogs' page.
+
+**New Wireframe Design**
+
+Mobile
+![Mobile Wireframe](/docs/mobile_wireframe1.png) ![Mobile Wireframe](/docs/mobile_wireframe2.png) ![Mobile Wireframe](/docs/mobile_wireframe3.png) ![Mobile Wireframe](/docs/mobile_wireframe4.png)
+
+Tablet
+![Tablet Wireframe](/docs/tablet_wireframe1.png) ![Tablet Wireframe](/docs/tablet_wireframe2.png) ![Tablet Wireframe](/docs/tablet_wireframe3.png) ![Tablet Wireframe](/docs/tablet_wireframe4.png)
+
+Desktop
+![Desktop Wireframe](/docs/desktop_wireframe1.png) ![Destkop Wireframe](/docs/desktop_wireframe2.png) ![Desktop Wireframe](/docs/desktop_wireframe3.png) ![Desktop Wireframe](/docs/desktop_wireframe4.png)
 
 <!-- TO DO -->
 
 <!--
 A link to your presentation video
 Sitemap
-Screenshots
  -->
