@@ -105,6 +105,7 @@ I also made some minor changes to the layout and changed my 'projects' page to a
 **New Wireframe Design**
 
 Mobile
+
 ![Mobile Wireframe](/docs/mobile_wireframe1.png) ![Mobile Wireframe](/docs/mobile_wireframe2.png) ![Mobile Wireframe](/docs/mobile_wireframe3.png) ![Mobile Wireframe](/docs/mobile_wireframe4.png)
 
 Tablet
