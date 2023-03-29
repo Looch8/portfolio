@@ -45,6 +45,7 @@ Mobile
 <img src="/docs/mobile_about_header.png" alt="Mobile Home Page" style=" width:300px;"/> <img src="/docs/mobile_about_main.png" alt="Mobile Home Page" style=" width:300px;"/>
 
 <br>
+<br>
 
 3.  _Blog:_ The blog section serves as a way to share my thoughts and insights on development and related topics.
 
@@ -60,6 +61,7 @@ Mobile
 
 <img src="/docs/mobile_blogs_header.png" alt="Mobile Blog Page" style=" width:300px;"/> <img src="/docs/mobile_blogs_main.png" alt="Mobile Blog Page" style=" width:300px;"/>
 
+<br>
 <br>
 
 4.  _Contact:_ The contact section provides a way for potential employers or clients to get in touch with me. This section includes a contact form for inquiries.
