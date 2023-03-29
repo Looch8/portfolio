@@ -117,5 +117,4 @@ Desktop
 
 <!--
 A link to your presentation video
-Sitemap
  -->
