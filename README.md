@@ -25,7 +25,7 @@ Tablet View
 ![Tablet Home Page](/docs/tablet_homepage.png)
 
 Mobile View
-<img src="/docs/mobile_homepage.png" alt="Mobile Home Page" style=" width:300px;"/>
+<img src="/LUKEWHELDALE_T1A2/docs/mobile_homepage.png" alt="Mobile Home Page" style=" width:300px;"/>
 
 <br>
 
