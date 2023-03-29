@@ -18,27 +18,62 @@ My portfolio includes the following functionality and features:
 
 1.  _Home Page:_ The homepage serves as an introduction to my portfolio website. The aim was to be visually appealing, simple, clean and to feature a brief introduction.
 
-Desktop View
+Desktop
 ![Desktop Home Page](/docs/desktop_homepage.png)
 
-Tablet View
+Tablet
 ![Tablet Home Page](/docs/tablet_homepage.png)
 
-Mobile View
+Mobile
 
 <img src="/docs/mobile_homepage.png" alt="Mobile Home Page" style=" width:300px;"/>
 
 <br>
+<br>
 
 2.  _About:_ This section provides a detailed bio about me, including my background, education, and professional experience. The purpose of this section is to give potential employers an understanding of my qualifications and expertise.
     This section includes a list of my technical skills, such as programming languages, frameworks.
-    <br>
 
-3.  _Contact:_ The contact section provides a way for potential employers or clients to get in touch with me. This section includes a contact form for inquiries.
-    <br>
+Desktop
+![Desktop About Page](/docs/desktop_about.png)
 
-4.  _Blog:_ The blog section serves as a way to share my thoughts and insights on development and related topics.
-    <br>
+Tablet
+![Tablet About Page](/docs/tablet_about.png)
+
+Mobile
+
+<img src="/docs/mobile_about_header.png" alt="Mobile Home Page" style=" width:300px;"/> <img src="/docs/mobile_about_main.png" alt="Mobile Home Page" style=" width:300px;"/>
+
+<br>
+
+3.  _Blog:_ The blog section serves as a way to share my thoughts and insights on development and related topics.
+
+Desktop
+![Desktop Blog Page](/docs/desktop_blog_header.png)
+
+![Desktop Blog Page](/docs/desktop_blog_main.png)
+
+Tablet
+![Tablet Blog Page](/docs/tablet_blog_header.png)
+
+Mobile
+
+<img src="/docs/mobile_blogs_header.png" alt="Mobile Blog Page" style=" width:300px;"/> <img src="/docs/mobile_blogs_main.png" alt="Mobile Blog Page" style=" width:300px;"/>
+
+<br>
+
+4.  _Contact:_ The contact section provides a way for potential employers or clients to get in touch with me. This section includes a contact form for inquiries.
+
+Desktop
+![Desktop Contact Page](/docs/desktop_contact.png)
+
+Tablet
+![Tablet Contact Page](/docs/tablet_contact.png)
+
+Mobile
+
+<img src="/docs/mobile_contact.png" alt="Mobile Contact Page" style=" width:300px;"/>
+<br>
 
 5.  _Responsive Design:_ This webpage was developed to be optimized for all devices, including desktop, tablet, and mobile to ensure that it looks acceptable and functions seamlessly across all devices.
 
