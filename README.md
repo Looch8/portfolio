@@ -4,11 +4,7 @@
 
 #### GitHub Repo - [Click Here](https://github.com/Looch8/portfolio.git)
 
-<!-- TO DO -->
-
 #### Presentation Video - [Click Here](https://youtu.be/vrSinARGL-k)
-
- <!-- TO DO -->
 
 **Purpose:**
 The purpose of this portfolio website is to showcase my skills, and experience to potential employers or clients. The website also serves as a digital resume and portfolio, highlighting my skills in web development and design.
@@ -112,9 +108,3 @@ Tablet
 
 Desktop
 ![Desktop Wireframe](/docs/desktop_wireframe1.png) ![Destkop Wireframe](/docs/desktop_wireframe2.png) ![Desktop Wireframe](/docs/desktop_wireframe3.png) ![Desktop Wireframe](/docs/desktop_wireframe4.png)
-
-<!-- TO DO -->
-
-<!--
-A link to your presentation video
- -->
