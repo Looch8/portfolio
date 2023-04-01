@@ -4,14 +4,14 @@
 @import "../../styles/defaults/breakpoints";
 @import "../../styles/components/utils";
 
-// Smooth scrolling when clicking on an anchor tag
+/* Smooth scrolling when clicking on an anchor tag */
 html {
 	scroll-behavior: smooth;
 }
 
 header {
 	.nav-bar {
-		// Styling for Nav Links
+		/* Styling for Nav Links */
 		.projects-link {
 			color: $font-secondary;
 		}
@@ -30,14 +30,14 @@ header {
 }
 
 body {
-	// Default background color, view height, margin and padding
+	/* Default background color, view height, margin and padding */
 	@include background-default();
 	display: flex;
 	flex-direction: column;
 }
 
 main {
-	// Universal font
+	/* Universal font */
 	color: $font-primary;
 	font-family: "Source Sans Pro", sans-serif;
 
@@ -45,7 +45,7 @@ main {
 	flex-wrap: wrap;
 	justify-content: center;
 
-	// Header
+	/* Header */
 	.header-title {
 		margin-bottom: 150px;
 
@@ -56,7 +56,7 @@ main {
 		border-bottom: 18px solid $font-secondary;
 	}
 
-	// Blog text, image, and header container for all blogs
+	/* Blog text, image, and header container for all blogs */
 	.blog-container {
 		display: flex;
 		flex-direction: column;
@@ -67,7 +67,7 @@ main {
 		margin-left: 24px;
 		margin-right: 24px;
 
-		// Blog list
+		/* Blog list */
 		ul {
 			text-align: center;
 			margin-bottom: 230px;
@@ -86,7 +86,7 @@ main {
 					padding: 5px;
 					text-align: left;
 
-					// Hyperlink for each Blog in the blog list.
+					/* Hyperlink for each Blog in the blog list. */
 					a {
 						text-decoration: none;
 						color: $font-primary;
@@ -96,7 +96,7 @@ main {
 						}
 					}
 
-					// Date for Each blog in list to seperate from the blog titles
+					/* Date for Each blog in list to seperate from the blog titles */
 					.list-date {
 						font-size: 1rem;
 						font-style: italic;
@@ -106,7 +106,7 @@ main {
 			}
 		}
 
-		// Individual container for each blog text, image, and header
+		/* Individual container for each blog text, image, and header */
 		.blog-post {
 			display: flex;
 			flex-direction: row;
@@ -114,17 +114,17 @@ main {
 			margin-bottom: 24px;
 
 			.header-text {
-				// title and date for blog
+				/* title and date for blog */
 				.blog-title {
 					margin-bottom: 6px;
 
-					// Blog title
+					/* Blog title */
 					strong {
 						font-size: 1.8rem;
 					}
 				}
 
-				// Text portion of blog
+				/* Text portion of blog */
 				.blog-text {
 					margin-bottom: 24px;
 					font-size: 1.2rem;
@@ -138,16 +138,16 @@ main {
 	}
 }
 
-// BREAKPOINTS
+/* BREAKPOINTS */
 
-// Mobile View
+/* Mobile View */
 @media screen and (max-width: $small) {
 	main {
-		//Hides horizontal scrolling
+		/* Hides horizontal scrolling */
 		overflow-x: hidden;
 
 		.blog-container {
-			// Blog list
+			/* Blog list */
 			ul {
 				padding: 10px;
 				.list {
@@ -205,14 +205,14 @@ main {
 	}
 }
 
-// Tablet view
+/* Tablet view */
 @media (min-width: $medium-min) and (max-width: $medium-max) {
 	main {
-		//Hides horizontal scrolling
+		/* Hides horizontal scrolling */
 		overflow-x: hidden;
 
 		.blog-container {
-			// Blog list
+			/* Blog list */
 			ul {
 				padding: 10px;
 				.list {
@@ -272,7 +272,7 @@ main {
 	}
 }
 
-// Desktop view
+/* Desktop view */
 @media screen and (min-width: $large) {
 	main {
 		.blog-container {

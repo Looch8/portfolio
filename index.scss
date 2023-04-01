@@ -1,4 +1,4 @@
-// Nav bar and header
+/* Nav bar and header */
 @import "./styles/components/header";
 @import "./styles/components/footer";
 @import "./styles/defaults/colors";
@@ -24,13 +24,13 @@ header {
 }
 
 body {
-	// Default background color, view height, margin and padding
+	/* Default background color, view height, margin and padding */
 	@include background-default();
 	display: flex;
 	flex-direction: column;
 }
 
-// container for the intro text and image of the main page
+/* container for the intro text and image of the main page */
 main {
 	.intro-container {
 		display: flex;
@@ -59,9 +59,9 @@ main {
 	}
 }
 
-// BREAKPOINTS
+/* BREAKPOINTS */
 
-// Mobile view
+/* Mobile view */
 @media screen and (max-width: $small) {
 	main {
 		.intro-container {
@@ -74,7 +74,7 @@ main {
 	}
 }
 
-// tablet view
+/* tablet view */
 @media (min-width: $medium-min) and (max-width: $medium-max) {
 	main {
 		.intro-container {
@@ -85,7 +85,7 @@ main {
 	}
 }
 
-// Desktop view
+/* Desktop view */
 @media screen and (min-width: $large) {
 	main {
 		.intro-container {

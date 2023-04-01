@@ -5,7 +5,7 @@
 @import "../../styles/components/utils";
 
 header {
-	// Links to each page.
+	/* Links to each page. */
 	.nav-bar {
 		.about-link {
 			color: $font-secondary;
@@ -23,14 +23,14 @@ header {
 }
 
 body {
-	// Default background color, view height, margin and padding
+	/* Default background color, view height, margin and padding */
 	@include background-default();
 	display: flex;
 	flex-direction: column;
 }
 
 main {
-	// Profile Section including styling for Resume link
+	/* Profile Section including styling for Resume link */
 	.about {
 		display: flex;
 		justify-content: center;
@@ -58,11 +58,10 @@ main {
 
 			.about-profile {
 				max-width: 40%;
-				// align-items: center;
 				color: $font-primary;
 				font-size: 1.5rem;
 
-				// Resume Link
+				/* Resume Link */
 				a {
 					text-decoration: none;
 
@@ -73,7 +72,7 @@ main {
 				}
 			}
 
-			//logo rows
+			/* logo rows */
 			.skills-row {
 				display: flex;
 				flex-direction: column;
@@ -90,7 +89,7 @@ main {
 				padding: 5px;
 			}
 
-			//skills logos and associated text
+			/* skills logos and associated text */
 			.skills {
 				margin-left: 50px;
 				display: flex;
@@ -106,7 +105,7 @@ main {
 					color: $font-secondary;
 				}
 
-				//logo colors
+				/* logo colors */
 				.fa-sass {
 					color: pink;
 				}
@@ -139,7 +138,7 @@ main {
 					color: #68a063;
 				}
 
-				//logo-text
+				/* logo-text */
 				.logo-name {
 					font-size: 1rem;
 					color: $font-primary;
@@ -150,12 +149,12 @@ main {
 	}
 }
 
-// BREAKPOINTS
+/*  BREAKPOINTS */
 
-// Mobile view
+/* Mobile view */
 @media screen and (max-width: $small) {
 	main {
-		// hides horizontal scrolling
+		/* hides horizontal scrolling */
 		overflow-x: hidden;
 		.about {
 			.about-heading {
@@ -181,10 +180,10 @@ main {
 	}
 }
 
-// tablet view
+/* tablet view */
 @media (min-width: $medium-min) and (max-width: $medium-max) {
 	main {
-		// hides horizontal scrolling
+		/* hides horizontal scrolling */
 		overflow-x: hidden;
 		.about {
 			.about-heading {
@@ -201,7 +200,7 @@ main {
 	}
 }
 
-// Desktop view
+/* Desktop view */
 @media screen and (min-width: $large) {
 	main {
 		.about {

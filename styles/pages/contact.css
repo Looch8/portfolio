@@ -63,6 +63,10 @@ footer .fa-github:hover {
     margin: auto;
   }
 }
+/* nav link */
+header .nav-bar {
+  /* Styling for Nav links */
+}
 header .nav-bar .contact-link {
   color: rgb(229, 153, 12);
 }
@@ -76,7 +80,9 @@ header .nav-bar .projects-link {
   color: white;
 }
 
+/* Code to add background color and push footer to bottom of page */
 body {
+  /* Default background color, view height, margin and padding */
   background-color: rgb(23, 22, 22);
   min-height: 100vh;
   margin: 0;
@@ -85,11 +91,14 @@ body {
   flex-direction: column;
 }
 
+/* Mobile View */
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: "Source Sans Pro", sans-serif;
+  /* Heading for contact form */
+  /* Form Section */
 }
 main h2 {
   color: rgb(229, 153, 12);
@@ -99,11 +108,13 @@ main h2 {
 }
 main form {
   margin-bottom: 40px;
+  /* Submit Button section */
 }
 main form .form-elements {
   display: flex;
   flex-direction: column;
   margin-bottom: 24px;
+  /* Input section */
 }
 main form .form-elements label {
   font-size: 1.2rem;
@@ -136,6 +147,7 @@ main form .btn-div #submit {
   border: none;
   outline: none;
   font-size: 1.1rem;
+  /* Styling when mouse cursor hovers over submit button */
 }
 main form .btn-div #submit:hover {
   cursor: pointer;
@@ -143,6 +155,8 @@ main form .btn-div #submit:hover {
   color: rgb(229, 153, 12);
 }
 
+/* BREAKPOINTS */
+/* Tablet view */
 @media (min-width: 768px) and (max-width: 1050px) {
   main form .form-elements {
     flex-direction: row;
@@ -152,6 +166,7 @@ main form .btn-div #submit:hover {
     width: 70%;
   }
 }
+/* Desktop view */
 @media screen and (min-width: 1051px) {
   main h2 {
     font-size: 3.5rem;

@@ -4,10 +4,10 @@
 @import "../../styles/defaults/breakpoints";
 @import "../../styles/components/utils";
 
-// nav link
+/* nav link */
 header {
 	.nav-bar {
-		// Stlying for Nav links
+		/* Styling for Nav links */
 		.contact-link {
 			color: $font-secondary;
 		}
@@ -23,22 +23,22 @@ header {
 	}
 }
 
-// Code to add background color and push footer to bottom of page
+/* Code to add background color and push footer to bottom of page */
 body {
-	// Default background color, view height, margin and padding
+	/* Default background color, view height, margin and padding */
 	@include background-default();
 	display: flex;
 	flex-direction: column;
 }
 
-// Mobile View
+/* Mobile View */
 main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	font-family: "Source Sans Pro", sans-serif;
 
-	// Heading for contact form
+	/* Heading for contact form */
 	h2 {
 		color: $font-secondary;
 
@@ -49,7 +49,7 @@ main {
 		border-bottom: 9px solid $font-secondary;
 	}
 
-	// Form Section
+	/* Form Section */
 	form {
 		margin-bottom: 40px;
 
@@ -62,7 +62,7 @@ main {
 				color: $font-primary;
 			}
 
-			// Input section
+			/* Input section */
 			.form-input {
 				font-family: "Times New Roman", Times, serif;
 				border: 1px solid $font-primary;
@@ -82,7 +82,7 @@ main {
 			}
 		}
 
-		// Submit Button section
+		/* Submit Button section */
 		.btn-div {
 			text-align: center;
 
@@ -96,7 +96,7 @@ main {
 				outline: none;
 				font-size: 1.1rem;
 
-				// Styling when mouse cursor hovers over submit button
+				/* Styling when mouse cursor hovers over submit button */
 				&:hover {
 					cursor: pointer;
 					background-color: $font-primary;
@@ -107,9 +107,9 @@ main {
 	}
 }
 
-//BREAKPOINTS
+/* BREAKPOINTS */
 
-// Tablet view
+/* Tablet view */
 @media (min-width: $medium-min) and (max-width: $medium-max) {
 	main {
 		form {
@@ -125,7 +125,7 @@ main {
 	}
 }
 
-// Desktop view
+/* Desktop view */
 @media screen and (min-width: $large) {
 	main {
 		h2 {

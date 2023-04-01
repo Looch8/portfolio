@@ -63,10 +63,14 @@ footer .fa-github:hover {
     margin: auto;
   }
 }
+/* Smooth scrolling when clicking on an anchor tag */
 html {
   scroll-behavior: smooth;
 }
 
+header .nav-bar {
+  /* Styling for Nav Links */
+}
 header .nav-bar .projects-link {
   color: rgb(229, 153, 12);
 }
@@ -81,6 +85,7 @@ header .nav-bar .contacts-link {
 }
 
 body {
+  /* Default background color, view height, margin and padding */
   background-color: rgb(23, 22, 22);
   min-height: 100vh;
   margin: 0;
@@ -90,11 +95,14 @@ body {
 }
 
 main {
+  /* Universal font */
   color: white;
   font-family: "Source Sans Pro", sans-serif;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  /* Header */
+  /* Blog text, image, and header container for all blogs */
 }
 main .header-title {
   margin-bottom: 150px;
@@ -110,6 +118,8 @@ main .blog-container {
   flex-wrap: wrap;
   margin-left: 24px;
   margin-right: 24px;
+  /* Blog list */
+  /* Individual container for each blog text, image, and header */
 }
 main .blog-container ul {
   text-align: center;
@@ -127,6 +137,8 @@ main .blog-container ul .list {
 main .blog-container ul .list li {
   padding: 5px;
   text-align: left;
+  /* Hyperlink for each Blog in the blog list. */
+  /* Date for Each blog in list to seperate from the blog titles */
 }
 main .blog-container ul .list li a {
   text-decoration: none;
@@ -145,8 +157,13 @@ main .blog-container .blog-post {
   flex-direction: row;
   margin-bottom: 24px;
 }
+main .blog-container .blog-post .header-text {
+  /* title and date for blog */
+  /* Text portion of blog */
+}
 main .blog-container .blog-post .header-text .blog-title {
   margin-bottom: 6px;
+  /* Blog title */
 }
 main .blog-container .blog-post .header-text .blog-title strong {
   font-size: 1.8rem;
@@ -159,9 +176,15 @@ main .blog-container .blog-post img {
   width: 450px;
 }
 
+/* BREAKPOINTS */
+/* Mobile View */
 @media screen and (max-width: 767px) {
   main {
+    /* Hides horizontal scrolling */
     overflow-x: hidden;
+  }
+  main .blog-container {
+    /* Blog list */
   }
   main .blog-container ul {
     padding: 10px;
@@ -206,9 +229,14 @@ main .blog-container .blog-post img {
     max-width: 100%;
   }
 }
+/* Tablet view */
 @media (min-width: 768px) and (max-width: 1050px) {
   main {
+    /* Hides horizontal scrolling */
     overflow-x: hidden;
+  }
+  main .blog-container {
+    /* Blog list */
   }
   main .blog-container ul {
     padding: 10px;
@@ -255,6 +283,7 @@ main .blog-container .blog-post img {
     font-size: 1.3rem;
   }
 }
+/* Desktop view */
 @media screen and (min-width: 1051px) {
   main .blog-container {
     flex-direction: row;

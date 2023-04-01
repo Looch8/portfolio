@@ -63,6 +63,9 @@ footer .fa-github:hover {
     margin: auto;
   }
 }
+header {
+  /* Links to each page. */
+}
 header .nav-bar .about-link {
   color: rgb(229, 153, 12);
 }
@@ -77,6 +80,7 @@ header .nav-bar .contacts-link {
 }
 
 body {
+  /* Default background color, view height, margin and padding */
   background-color: rgb(23, 22, 22);
   min-height: 100vh;
   margin: 0;
@@ -85,6 +89,9 @@ body {
   flex-direction: column;
 }
 
+main {
+  /* Profile Section including styling for Resume link */
+}
 main .about {
   display: flex;
   justify-content: center;
@@ -103,11 +110,14 @@ main .about .about-content {
   justify-content: space-around;
   padding: 20px;
   font-size: 1.3rem;
+  /* logo rows */
+  /* skills logos and associated text */
 }
 main .about .about-content .about-profile {
   max-width: 40%;
   color: white;
   font-size: 1.5rem;
+  /* Resume Link */
 }
 main .about .about-content .about-profile a {
   text-decoration: none;
@@ -137,6 +147,8 @@ main .about .about-content .skills {
   border-radius: 45px;
   margin-bottom: 50px;
   background-color: rgb(64, 62, 62);
+  /* logo colors */
+  /* logo-text */
 }
 main .about .about-content .skills i {
   font-size: 3.5rem;
@@ -172,8 +184,11 @@ main .about .about-content .skills .logo-name {
   font-family: "Source Sans Pro", sans-serif;
 }
 
+/*  BREAKPOINTS */
+/* Mobile view */
 @media screen and (max-width: 767px) {
   main {
+    /* hides horizontal scrolling */
     overflow-x: hidden;
   }
   main .about .about-heading {
@@ -194,8 +209,10 @@ main .about .about-content .skills .logo-name {
     margin-right: 50px;
   }
 }
+/* tablet view */
 @media (min-width: 768px) and (max-width: 1050px) {
   main {
+    /* hides horizontal scrolling */
     overflow-x: hidden;
   }
   main .about .about-heading {
@@ -208,6 +225,7 @@ main .about .about-content .skills .logo-name {
     font-size: 1.5rem;
   }
 }
+/* Desktop view */
 @media screen and (min-width: 1051px) {
   main .about .about-heading {
     margin-bottom: 80px;

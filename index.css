@@ -1,133 +1,140 @@
+/* Nav bar and header */
 header {
-	display: flex;
-	margin-bottom: auto;
-	padding: 1rem;
-	background-color: rgb(64, 62, 62);
-	width: 100%;
-	box-sizing: border-box;
+  display: flex;
+  margin-bottom: auto;
+  padding: 1rem;
+  background-color: rgb(64, 62, 62);
+  width: 100%;
+  box-sizing: border-box;
 }
 header .nav-bar a {
-	color: white;
-	text-decoration: none;
-	padding: 8px;
-	font-family: "Source Sans Pro", sans-serif;
-	font-size: 1.3rem;
-	box-sizing: border-box;
+  color: white;
+  text-decoration: none;
+  padding: 8px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.3rem;
+  box-sizing: border-box;
 }
 header .nav-bar a:hover {
-	color: rgb(229, 153, 12);
+  color: rgb(229, 153, 12);
 }
 
 @media screen and (max-width: 600px) {
-	header {
-		width: 100%;
-		justify-content: center;
-		box-sizing: border-box;
-	}
+  header {
+    width: 100%;
+    justify-content: center;
+    box-sizing: border-box;
+  }
 }
 footer {
-	margin-top: auto;
-	display: flex;
-	padding: 1rem;
-	background-color: rgb(64, 62, 62);
-	justify-content: center;
-	width: 100%;
-	box-sizing: border-box;
+  margin-top: auto;
+  display: flex;
+  padding: 1rem;
+  background-color: rgb(64, 62, 62);
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
 }
 footer .fa-github {
-	color: white;
-	font-size: 2rem;
-	padding: 0px 20px 5px 5px;
+  color: white;
+  font-size: 2rem;
+  padding: 0px 20px 5px 5px;
 }
 footer .fa-linkedin {
-	color: white;
-	font-size: 2rem;
-	padding: 0px 20px 5px 5px;
+  color: white;
+  font-size: 2rem;
+  padding: 0px 20px 5px 5px;
 }
 footer .fa-linkedin:hover {
-	color: rgb(229, 153, 12);
+  color: rgb(229, 153, 12);
 }
 footer .fa-github:hover {
-	color: rgb(229, 153, 12);
+  color: rgb(229, 153, 12);
 }
 
 .icon-container {
-	width: 80%;
-	display: flex;
-	justify-content: flex-end;
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
 }
 
 @media screen and (max-width: 600px) {
-	.icon-container {
-		justify-content: center;
-		margin: auto;
-	}
+  .icon-container {
+    justify-content: center;
+    margin: auto;
+  }
 }
 /* Nav-bar links */
 header .nav-bar .home-link {
-	color: rgb(229, 153, 12);
+  color: rgb(229, 153, 12);
 }
 header .nav-bar .about-link {
-	color: white;
+  color: white;
 }
 header .nav-bar .projects-link {
-	color: white;
+  color: white;
 }
 header .nav-bar .contacts-link {
-	color: white;
+  color: white;
 }
 
 body {
-	background-color: rgb(23, 22, 22);
-	min-height: 100vh;
-	margin: 0;
-	padding: 0px;
-	display: flex;
-	flex-direction: column;
+  /* Default background color, view height, margin and padding */
+  background-color: rgb(23, 22, 22);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
 }
 
+/* container for the intro text and image of the main page */
 main .intro-container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 main .intro-container img {
-	width: 250px;
-	padding: 15px;
-	border-radius: 20%;
+  width: 250px;
+  padding: 15px;
+  border-radius: 20%;
 }
 main .intro-container .intro {
-	max-width: 70%;
-	color: white;
-	font-family: "Source Sans Pro", sans-serif;
-	font-size: 2rem;
-	margin-left: 20px;
-	padding-left: 10px;
+  max-width: 70%;
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 2rem;
+  margin-left: 20px;
+  padding-left: 10px;
 }
 main .intro-container .intro span {
-	color: rgb(229, 153, 12);
+  color: rgb(229, 153, 12);
 }
 
+/* BREAKPOINTS */
+/* Mobile view */
 @media screen and (max-width: 767px) {
-	main .intro-container {
-		margin-top: 80px;
-	}
-	main .intro-container .intro {
-		padding-top: 20px;
-		margin-bottom: 80px;
-	}
+  main .intro-container {
+    margin-top: 80px;
+  }
+  main .intro-container .intro {
+    padding-top: 20px;
+    margin-bottom: 80px;
+  }
 }
+/* tablet view */
 @media (min-width: 768px) and (max-width: 1050px) {
-	main .intro-container .intro {
-		font-size: 2.2rem;
-	}
+  main .intro-container .intro {
+    font-size: 2.2rem;
+  }
 }
+/* Desktop view */
 @media screen and (min-width: 1051px) {
-	main .intro-container img {
-		width: 280px;
-	}
-	main .intro-container .intro {
-		font-size: 3.2rem;
-	}
-} /*# sourceMappingURL=index.css.map */
+  main .intro-container img {
+    width: 280px;
+  }
+  main .intro-container .intro {
+    font-size: 3.2rem;
+  }
+}/*# sourceMappingURL=index.css.map */
